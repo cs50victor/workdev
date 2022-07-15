@@ -9,7 +9,7 @@ cp $HOME/itermProfile/default-iterm-profile.json $WORKDEV_DIR/
 cp -R $HOME/.config/nvim/lua/custom/ $WORKDEV_DIR/nvim/custom/
 
 # oh-my-zsh
-cp $HOME/.zshrc $WORKDEV_DIR.
+cp $HOME/.zshrc $WORKDEV_DIR/
 
 # vscode
 cp $HOME/Library/Application\ Support/Code/User/settings.json $WORKDEV_DIR/vscode/
