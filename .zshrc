@@ -4,7 +4,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/vic8or/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -102,9 +102,9 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-alias projects="cd /Users/vic8or/Desktop/projects"
+alias projects="cd $HOME/Desktop/projects"
 alias vimconfig="cd ~/.config/nvim/lua/custom/ && vim init.lua"
-alias restartVim="rm -rf ~/.config/nvim/plugin && rm -rf ~/.local/share/nvim && rm -rf ~/.cache/nvim && rm -rf /Users/vic8or/.local/state/nvim"
+alias restartVim="rm -rf ~/.config/nvim/plugin && rm -rf ~/.local/share/nvim && rm -rf ~/.cache/nvim && rm -rf $HOME/.local/state/nvim"
 alias showAllFilesInFinder='defaults write com.apple.finder AppleShowAllFiles TRUE; killall Finder'
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -115,9 +115,6 @@ export NVM_DIR="$HOME/.nvm"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
-
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
