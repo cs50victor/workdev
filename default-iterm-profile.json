@@ -86,10 +86,11 @@
         "class" : "iTermStatusBarClockComponent",
         "configuration" : {
           "knobs" : {
-            "format" : "hh:mm a - d MMM",
             "base: priority" : 5,
             "maxwidth" : 135,
+            "format" : "hh:mm a - d MMM",
             "minwidth" : 0,
+            "base: compression resistance" : 1,
             "shared text color" : {
               "Red Component" : 1,
               "Color Space" : "sRGB",
@@ -97,7 +98,6 @@
               "Alpha Component" : 1,
               "Green Component" : 1
             },
-            "base: compression resistance" : 1,
             "localize" : 0
           },
           "layout advanced configuration dictionary value" : {
@@ -374,7 +374,7 @@
   "Window Type" : 0,
   "Use Bright Bold" : true,
   "Has Hotkey" : true,
-  "HotKey Modifier Activation" : 2,
+  "HotKey Modifier Activation" : 3,
   "Cursor Text Color" : {
     "Red Component" : 0,
     "Color Space" : "sRGB",
