@@ -8,12 +8,12 @@ rm $HOME/Library/Fonts/SFMono.zip
 ```
 3.
 ```shell
-  brew tap homebrew/cask-fonts && brew install fzf gh  git node nvm pyenv pyenv-virtualenv python wget yarn zsh-completions zsh-syntax-highlighting zsh-  autosuggestions brew-cask-completion font-inter neovim tmux exuberant-ctags treesitter llvm && brew install --cask docker iterm2 ngrok raycast rectangle visual-studio-code brave-browser notion grammarly fig  
+  brew tap homebrew/cask-fonts && brew install fzf gh  git node nvm pyenv pyenv-virtualenv python wget yarn zsh-completions zsh-syntax-highlighting zsh-  autosuggestions brew-cask-completion font-inter neovim tmux exuberant-ctags treesitter llvm && brew install --cask docker iterm2 ngrok raycast rectangle visual-studio-code brave-browser notion grammarly fig 
 ```
 4. pin Brave Browser, Notion, iTerm, VS Code
 5. 
 ```shell 
-  python3 -m pip install --user --upgrade pynvim && yarn global add neovim eslint_d vscode-langservers-extracted vls
+  python3 -m pip install --user --upgrade pynvim && yarn global add neovim vscode-langservers-extracted vls && npm install -g eslint_d
 ```
 6. Configure System preferences
 7. Setup Rectangle.app
