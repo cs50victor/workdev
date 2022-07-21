@@ -13,7 +13,7 @@ rm $HOME/Library/Fonts/SFMono.zip
 4. pin Brave Browser, Notion, iTerm, VS Code
 5. 
 ```shell 
-  python3 -m pip install --user --upgrade pynvim && yarn global add neovim vscode-langservers-extracted vls && npm install -g eslint_d
+  python3 -m pip install --user --upgrade pynvim && yarn global add neovim vscode-langservers-extracted vls eslint_d
 ```
 6. Configure System preferences
 7. Setup Rectangle.app
